@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Landing page</title>
+</head>
+<body>
+<header>
+    <nav id="navbar">
+        <i class="fa-brands fa-gratipay" id="nav_logo"> flowers</i>
+        
+        <ul id="nav_list">
+            <li class="nav-item active">
+                <a href="#home">Início</a>
+            </li>
+             <li class="nav-item">
+                <a href="#menu">Catálogo</a>
+            </li>
+             <li class="nav-item">
+                <a href="#testimonials">Avaliações</a>
+            </li>
+        </ul>
+        
+        <button class="btn-default">
+            Encomende aqui
+        </button>
+        
+        <button id="mobile_btn">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </nav>
+    
+    <div id="mobile_menu">
+         <ul id="mobile_nav_list">
+            <li class="nav-item">
+                <a href="#home">Início</a>
+            </li>
+             <li class="nav-item">
+                <a href="#menu">Catálogo</a>
+            </li>
+             <li class="nav-item">
+                <a href="#testimonials">Avaliações</a>
+            </li>
+        </ul>
+        
+         <button class="btn-default">
+            Encomende aqui
+        </button>
+    </div>
+</header>
+
+<main id="content">
+    <section id="home">
+        <div class="shape">
+            
+        </div>
+        <div id="cta">
+            <h1 class="title">
+                Flores que falam por 
+                <span>você</span>
+                </h1>
+                
+         <p class="description">Deixe que as belas flores retratem tudo o que você sente por alguém.</p>
+         
+         <div id="cta_buttons">
+             <a href="#" class="btn-default">Ver catálogo</a>
+             
+             <a href="tel:+5566666666" id="phone_button">
+                 <button class="btn-default">
+                     <i class="fa-solid fa-phone"></i>
+                 </button>
+                 (52)96666-0000
+             </a>
+         </div>
+         
+         <div class="social-media-buttons">
+             <a href="">
+                 <i class="fa-brands fa-whatsapp"></i>
+             </a>
+             
+                          <a href="">
+                 <i class="fa-brands fa-instagram"></i>
+             </a>
+             
+                          <a href="">
+                 <i class="fa-brands fa-facebook"></i>
+             </a>
+             
+         </div>
+        </div>
+        
+        <div id="banner">
+            <img src="flores.png" alt="flowers"/>
+        </div>
+        
+    </section>
+    
+    <section id="menu">
+        <h2 class="section-title">Catálogo</h2>
+        <h3 class="section-subtitle">Nossos buquês de flores especiais</h3>
+        
+        <div id="bouquet">
+            <div class="roses">
+                <div class="rose-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                
+                <img src="bouquet-1.jpg" class="rose-image" alt="bouquet">
+                <h3 class="bouquet-title">Lorem Ipsun</h3>
+                <span class="bouquet-description">Lorem ipsun dolor sit amet consectetur adipisicing elit.</span>
+                
+                <div class="bouquet-rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(500+)</span>
+                </div>
+                <div class="bouquet-price">
+                  <h4>R$50,00</h4> 
+                  <button class="btn-default">
+                      <i class="fa-solid fa-basket-shopping"></i>
+                  </button>
+                </div>
+            </div>
+        </div>
+        
+        <div id="bouquet">
+            <div class="roses">
+                <div class="rose-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                
+                <img src="bouquet-2.jpg" class="rose-image" alt="bouquet">
+                <h3 class="bouquet-title">Lorem Ipsun</h3>
+                <span class="bouquet-description">Lorem ipsun dolor sit amet consectetur adipisicing elit.</span>
+                
+                <div class="bouquet-rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(500+)</span>
+                </div>
+                <div class="bouquet-price">
+                  <h4>R$50,00</h4> 
+                  <button class="btn-default">
+                      <i class="fa-solid fa-basket-shopping"></i>
+                  </button>
+                </div>
+            </div>
+        </div>
+        
+        <div id="bouquet">
+            <div class="roses">
+                <div class="rose-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                
+                <img src="bouquet-3.jpg" class="rose-image" alt="bouquet">
+                <h3 class="bouquet-title">Lorem Ipsun</h3>
+                <span class="bouquet-description">Lorem ipsun dolor sit amet consectetur adipisicing elit.</span>
+                
+                <div class="bouquet-rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(500+)</span>
+                </div>
+                <div class="bouquet-price">
+                  <h4>R$50,00</h4> 
+                  <button class="btn-default">
+                      <i class="fa-solid fa-basket-shopping"></i>
+                  </button>
+                </div>
+            </div>
+        </div>
+        
+        <div id="bouquet">
+            <div class="roses">
+                <div class="rose-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                
+                <img src="bouquet-4.jpg" class="rose-image" alt="bouquet">
+                <h3 class="bouquet-title">Lorem Ipsun</h3>
+                <span class="bouquet-description">Lorem ipsun dolor sit amet consectetur adipisicing elit.</span>
+                
+                <div class="bouquet-rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(500+)</span>
+                </div>
+                <div class="bouquet-price">
+                  <h4>R$50,00</h4> 
+                  <button class="btn-default">
+                      <i class="fa-solid fa-basket-shopping"></i>
+                  </button>
+                </div>
+            </div>
+        </div>
+        
+        <div id="bouquet">
+            <div class="roses">
+                <div class="rose-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                
+                <img src="bouquet-5.jpg" class="rose-image" alt="bouquet">
+                <h3 class="bouquet-title">Lorem Ipsun</h3>
+                <span class="bouquet-description">Lorem ipsun dolor sit amet consectetur adipisicing elit.</span>
+                
+                <div class="bouquet-rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(500+)</span>
+                </div>
+                <div class="bouquet-price">
+                  <h4>R$50,00</h4> 
+                  <button class="btn-default">
+                      <i class="fa-solid fa-basket-shopping"></i>
+                  </button>
+                </div>
+            </div>
+        </div>
+        
+        <div id="bouquet">
+            <div class="roses">
+                <div class="rose-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                
+                <img src="bouquet-6.jpg" class="rose-image" alt="bouquet">
+                <h3 class="bouquet-title">Lorem Ipsun</h3>
+                <span class="bouquet-description">Lorem ipsun dolor sit amet consectetur adipisicing elit.</span>
+                
+                <div class="bouquet-rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(500+)</span>
+                </div>
+                <div class="bouquet-price">
+                  <h4>R$50,00</h4> 
+                  <button class="btn-default">
+                      <i class="fa-solid fa-basket-shopping"></i>
+                  </button>
+                </div>
+            </div>
+        </div>
+        
+        <div id="bouquet">
+            <div class="roses">
+                <div class="rose-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                
+                <img src="bouquet-7.jpg" class="rose-image" alt="bouquet">
+                <h3 class="bouquet-title">Lorem Ipsun</h3>
+                <span class="bouquet-description">Lorem ipsun dolor sit amet consectetur adipisicing elit.</span>
+                
+                <div class="bouquet-rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(500+)</span>
+                </div>
+                <div class="bouquet-price">
+                  <h4>R$50,00</h4> 
+                  <button class="btn-default">
+                      <i class="fa-solid fa-basket-shopping"></i>
+                  </button>
+                </div>
+            </div>
+        </div>
+        
+        <div id="bouquet">
+            <div class="roses">
+                <div class="rose-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                
+                <img src="bouquet-8.jpg" class="rose-image" alt="bouquet">
+                <h3 class="bouquet-title">Lorem Ipsun</h3>
+                <span class="bouquet-description">Lorem ipsun dolor sit amet consectetur adipisicing elit.</span>
+                
+                <div class="bouquet-rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(500+)</span>
+                </div>
+                <div class="bouquet-price">
+                  <h4>R$50,00</h4> 
+                  <button class="btn-default">
+                      <i class="fa-solid fa-basket-shopping"></i>
+                  </button>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    
+    <section id="testimonials">
+        <img src="banner.jpg" id="testimonial_chef"alt="Beaultiful flowers">
+        <div id="testimonials_content">
+            <h2 class="section-title">Avaliações</h2>
+            <h3 class="section-subtitle">O que os clientes falam sobre nós</h3>
+            
+            <div id="feedbacks">
+                <div class="feedback">
+                    <img src="avatar.png" class="feedback-avatar" alt="Mulher sorrindo">
+                    <div class="feedback-content">
+                        <p>Fulana de Tal
+                        <span>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+                        </p>
+                        <p>
+                            "Lorem ipsum dolor sit amet. Id debitis soluta et accusamus dignissimos hic quidem vitae. Ea incidunt omnis et nulla veritatis et officiis fugit et cumque animi."
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+             <div id="feedbacks">
+                <div class="feedback">
+                    <img src="avatar.png" class="feedback-avatar" alt="Mulher sorrindo">
+                    <div class="feedback-content">
+                        <p>Fulana de Tal
+                        <span>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+                        </p>
+                        <p>
+                            "Lorem ipsum dolor sit amet. Id debitis soluta et accusamus dignissimos hic quidem vitae. Ea incidunt omnis et nulla veritatis et officiis fugit et cumque animi."
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <button class="btn-default">
+                Ver mais avaliações
+            </button>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <img src="wave.svg" alt="">
+    
+    <div id="footer_items">
+        <span id="copyright">
+            &copy 2024 Francielle Sousa
+        </span>
+         <div class="social-media-buttons">
+             <a href="">
+                 <i class="fa-brands fa-whatsapp"></i>
+             </a>
+             
+                          <a href="">
+                 <i class="fa-brands fa-instagram"></i>
+             </a>
+             
+                          <a href="">
+                 <i class="fa-brands fa-facebook"></i>
+             </a>
+             
+         </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
